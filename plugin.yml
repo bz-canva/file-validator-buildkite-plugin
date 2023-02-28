@@ -1,0 +1,12 @@
+name: File Validator
+description: Validate files
+author: https://github.com/bz-canva
+requirements:
+  - buildkite-agent
+configuration:
+  properties:
+    validators:
+      type: [ string, array ]
+      minItems: 1
+  additionalProperties: false
+public: true
